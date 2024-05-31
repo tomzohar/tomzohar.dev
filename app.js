@@ -1,6 +1,6 @@
 const http = require('http');
 http.createServer(function(req,res){
-	res.write("On the way to be a Fullstack engineer!");
+	res.write("On the way to be a Fullstack engineer!\n I'm now connected to github remote :\)");
 	res.end();
 }).listen(3000);
 
